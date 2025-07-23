@@ -245,7 +245,7 @@ async function _getDevRollupConfig(
   const _maxDataSize =
     process.env.MAX_DATA_SIZE !== undefined
       ? ethers.BigNumber.from(process.env.MAX_DATA_SIZE)
-      : ethers.BigNumber.from(117964)
+      : ethers.BigNumber.from(512000)
 
   // set up validators
   const authorizeValidators: number =
